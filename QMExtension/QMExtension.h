@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+QMExtension.h"
+#import "NSString+QMExtension.h"
 
 //! Project version number for QMExtension.
 FOUNDATION_EXPORT double QMExtensionVersionNumber;
