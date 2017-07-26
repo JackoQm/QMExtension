@@ -12,7 +12,7 @@
 
 + (instancetype)qm_imageWithColor:(UIColor *)color
 {
-    UIImage *image = [[UIImage alloc] initWithColor:color];
+    UIImage *image = [[UIImage alloc] qm_initWithColor:color];
     
     return image;
 }
