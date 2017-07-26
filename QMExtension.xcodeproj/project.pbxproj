@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9130B6CB1F2864C100DCE233 /* UIImage+QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9130B6C91F2864C100DCE233 /* UIImage+QMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9130B6CC1F2864C100DCE233 /* UIImage+QMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130B6CA1F2864C100DCE233 /* UIImage+QMExtension.m */; };
+		9130B6D11F28699900DCE233 /* UIColor+QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9130B6CF1F28699900DCE233 /* UIColor+QMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9130B6D21F28699900DCE233 /* UIColor+QMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130B6D01F28699900DCE233 /* UIColor+QMExtension.m */; };
 		9163ABA41F1333220098A4D6 /* QMExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9163AB9A1F1333210098A4D6 /* QMExtension.framework */; };
 		9163ABA91F1333220098A4D6 /* QMExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9163ABA81F1333220098A4D6 /* QMExtensionTests.m */; };
 		9163ABAB1F1333220098A4D6 /* QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9163AB9D1F1333210098A4D6 /* QMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9163ABB61F13335E0098A4D6 /* UIView+QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9163ABB41F13335E0098A4D6 /* UIView+QMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9163ABB71F13335E0098A4D6 /* UIView+QMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9163ABB51F13335E0098A4D6 /* UIView+QMExtension.m */; };
 		9163ABC41F13598F0098A4D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9163ABC31F13598F0098A4D6 /* UIKit.framework */; };
-		9163ABEF1F137CCC0098A4D6 /* NSString+QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9163ABED1F137CCC0098A4D6 /* NSString+QMExtension.h */; };
+		9163ABEF1F137CCC0098A4D6 /* NSString+QMExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9163ABED1F137CCC0098A4D6 /* NSString+QMExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9163ABF01F137CCC0098A4D6 /* NSString+QMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9163ABEE1F137CCC0098A4D6 /* NSString+QMExtension.m */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9130B6C91F2864C100DCE233 /* UIImage+QMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QMExtension.h"; sourceTree = "<group>"; };
+		9130B6CA1F2864C100DCE233 /* UIImage+QMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QMExtension.m"; sourceTree = "<group>"; };
+		9130B6CF1F28699900DCE233 /* UIColor+QMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QMExtension.h"; sourceTree = "<group>"; };
+		9130B6D01F28699900DCE233 /* UIColor+QMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QMExtension.m"; sourceTree = "<group>"; };
 		9163AB9A1F1333210098A4D6 /* QMExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9163AB9D1F1333210098A4D6 /* QMExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMExtension.h; sourceTree = "<group>"; };
 		9163AB9E1F1333210098A4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 			children = (
 				9163ABB41F13335E0098A4D6 /* UIView+QMExtension.h */,
 				9163ABB51F13335E0098A4D6 /* UIView+QMExtension.m */,
+				9130B6C91F2864C100DCE233 /* UIImage+QMExtension.h */,
+				9130B6CA1F2864C100DCE233 /* UIImage+QMExtension.m */,
+				9130B6CF1F28699900DCE233 /* UIColor+QMExtension.h */,
+				9130B6D01F28699900DCE233 /* UIColor+QMExtension.m */,
 			);
 			name = "UIKit+Extension";
 			sourceTree = "<group>";
@@ -135,6 +147,8 @@
 			files = (
 				9163ABB61F13335E0098A4D6 /* UIView+QMExtension.h in Headers */,
 				9163ABEF1F137CCC0098A4D6 /* NSString+QMExtension.h in Headers */,
+				9130B6D11F28699900DCE233 /* UIColor+QMExtension.h in Headers */,
+				9130B6CB1F2864C100DCE233 /* UIImage+QMExtension.h in Headers */,
 				9163ABAB1F1333220098A4D6 /* QMExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9130B6CC1F2864C100DCE233 /* UIImage+QMExtension.m in Sources */,
 				9163ABB71F13335E0098A4D6 /* UIView+QMExtension.m in Sources */,
 				9163ABF01F137CCC0098A4D6 /* NSString+QMExtension.m in Sources */,
+				9130B6D21F28699900DCE233 /* UIColor+QMExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
