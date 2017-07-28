@@ -155,4 +155,65 @@
     self.bounds = rect;
 }
 
+/**
+ 该 View 的 Frame 的大小（size），可直接修改
+ */
+- (CGSize)qm_size
+{
+    return self.frame.size;
+}
+
+- (void)setQm_size:(CGSize)qm_size
+{
+    CGRect rect = self.frame;
+    rect.size = qm_size;
+    self.frame = rect;
+}
+
+/**
+ 该 View 的 Frame 的左上角坐标，可直接修改
+ */
+- (CGPoint)qm_origin
+{
+    return self.frame.origin;
+}
+
+- (void)setQm_origin:(CGPoint)qm_origin
+{
+    CGRect rect = self.frame;
+    rect.origin = qm_origin;
+    self.frame = rect;
+}
+
+/**
+ 该 View 的 Bounds 的大小（size），可直接修改
+ */
+- (CGSize)qm_boundsSize
+{
+    return self.bounds.size;
+}
+
+
+- (void)setQm_boundsSize:(CGSize)qm_boundsSize
+{
+    CGRect rect = self.bounds;
+    rect.size = qm_boundsSize;
+    self.bounds = rect;
+}
+
+/**
+ 该 View 的 Bounds 的左上角坐标，可直接修改
+ */
+- (CGPoint)qm_boundsOrigin
+{
+    return self.bounds.origin;
+}
+
+- (void)setQm_boundsOrigin:(CGPoint)qm_boundsOrigin
+{
+    CGRect rect = self.bounds;
+    rect.origin = qm_boundsOrigin;
+    self.bounds = rect;
+}
+
 @end

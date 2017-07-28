@@ -52,4 +52,24 @@
  */
 @property(nonatomic) CGFloat qm_boundsHeight;
 
+/**
+ 该 View 的 Frame 的大小（size），可直接修改
+ */
+@property(nonatomic) CGSize qm_size;
+
+/**
+ 该 View 的 Frame 的左上角坐标，可直接修改
+ */
+@property(nonatomic) CGPoint qm_origin;
+
+/**
+ 该 View 的 Bounds 的大小（size），可直接修改
+ */
+@property(nonatomic) CGSize qm_boundsSize;
+
+/**
+ 该 View 的 Bounds 的左上角坐标，可直接修改
+ */
+@property(nonatomic) CGPoint qm_boundsOrigin;
+
 @end
