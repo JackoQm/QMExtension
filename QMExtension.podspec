@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QMExtension"
-  s.version      = "1.0.2.1"
+  s.version      = "1.0.3"
   s.summary      = "Some useful Objective-C category"
 
   s.description  = <<-DESC
